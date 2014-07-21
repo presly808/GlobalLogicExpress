@@ -50,7 +50,7 @@ public class SaleMan implements Comparable {
     @Override
     public int compareTo(Object o) {
         SaleMan other = (SaleMan) o;
-        return this.id < other.id ? -1 : this.id > other.id ? 1 : 0;
+        return this.name.compareTo(other.name);
     }
 
     @Override

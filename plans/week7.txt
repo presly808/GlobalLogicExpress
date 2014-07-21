@@ -1,0 +1,8 @@
+1. equals
+2. Date, SimpleDateFormat
+3. see String(equals, compareTo)
+4. Comparable
+4. Autoboxing, unboxing
+5. Comparator
+6. Immutable
+7. Casting

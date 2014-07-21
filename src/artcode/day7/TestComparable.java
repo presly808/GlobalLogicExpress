@@ -17,8 +17,8 @@ public class TestComparable {
         Object[] mas = new Object[4];
         mas[0] = saleMan2;
         mas[1] = saleMan1;
-        mas[2] = new SaleMan("Anton", 1, 1200);
-        mas[3] = new SaleMan("Anton", 76, 1200);
+        mas[2] = new SaleMan("Bodia", 1, 1200);
+        mas[3] = new SaleMan("Lev", 76, 1200);
 
 
         Arrays.sort(mas);
