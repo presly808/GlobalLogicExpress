@@ -6,3 +6,7 @@
 5. Comparator
 6. Immutable
 7. Casting
+8. binarySearch
+9. Exceptions
+10. Generics
+10.
