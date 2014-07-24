@@ -3,6 +3,7 @@ package artcode.day8.stack;
 /**
  * Created by admin on 23.07.2014.
  */
+// _ _ _ _ _
 public class ArrayStack<E> implements IStack<E> {
 
     private E[] mas;
@@ -19,6 +20,9 @@ public class ArrayStack<E> implements IStack<E> {
 
     @Override
     public E pop() {
+        if(top < 1){
+            throw new StackEmptyException("Stack is empty");
+        }
         return mas[--top];
     }
 }
